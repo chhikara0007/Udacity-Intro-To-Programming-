@@ -1,0 +1,44 @@
+/* This is a CSS comment.*/
+
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
+
+
+/*
+	to create the most up to date browser uniformity use:<br>
+	-webkit <br>
+	-moz <br>
+	-ms <br>
+*/
+
+
+*{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+
+.header {
+  grid-column: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px ;
+  margin-bottom: 50px ;
+}
+
+.img1 {
+  grid-row-start: auto;
+  margin-right: 25px ;
+}
+
+.video{
+  grid-row-start: auto;
+  margin-right: 25px ;
+}

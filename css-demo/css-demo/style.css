@@ -1,0 +1,50 @@
+/* This is a CSS comment.*/
+
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
+
+
+/*
+	to create the most up to date browser uniformity use:<br>
+	-webkit <br>
+	-moz <br>
+	-ms <br>
+*/
+
+
+*{
+    outline: 1px solid red !important;
+}
+
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+
+.description {
+    color:#7C8B88;
+    max-width: 705px;
+    font: Courier;
+    margin-left: 25px;
+}
+
+.image {
+  max-width:460px;
+ }
+
+ .title{
+   background-color: #33BEBE;
+   font-size: 32px;
+   height:50px;
+   color:white;
+   font: CourierNew;
+  margin-bottom: 40px;
+  border-top: 10px;
+
+ }
